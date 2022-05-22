@@ -1,3 +1,4 @@
 {
-    "jwtPrivateKey": "moveis_jwtPrivateKey"
+    "jwtPrivateKey": "moveis_jwtPrivateKey",
+    "db": "moveis_db"
 }
