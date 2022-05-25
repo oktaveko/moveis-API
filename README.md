@@ -22,10 +22,10 @@ Node.JS - Moveis API
 
 ## Index
 
-| Route      | HTTP Verb | POST body                                                            | Description                           |
-| ---------- | --------- | -------------------------------------------------------------------- | ------------------------------------- |
-| /api/users | `POST`    | { "name": "Oktav", "email": "oktav@domain.com", "password": "abc12"} | Create a new user and generate token. |
-| /api/auth  | `POST`    | { "email": "oktav@domain.com", "password": "abc12" }                 | Generate a token.                     |
+| Route      | HTTP Verb | POST body                                                                       | Description                           |
+| ---------- | --------- | ------------------------------------------------------------------------------- | ------------------------------------- |
+| /api/users | `POST`    | <pre>{ "name": "Oktav", "email": "oktav@domain.com", "password": "abc12"}</pre> | Create a new user and generate token. |
+| /api/auth  | `POST`    | <pre>{ "email": "oktav@domain.com", "password": "abc12" }</pre>                 | Generate a token.                     |
 
 ## Customers
 
@@ -42,7 +42,7 @@ Node.JS - Moveis API
 | Route           | HTTP Verb | POST body           | Description          |
 | --------------- | --------- | ------------------- | -------------------- |
 | /api/genres     | `GET`     | Empty               | List all genres.     |
-| /api/genres     | `POST`    | {'name':'Horro'     | Create a new genre   |
+| /api/genres     | `POST`    | {'name':'Horror'    | Create a new genre   |
 | /api/genres/:id | `GET`     | Empty               | Get a genre details. |
 | /api/genres/:id | `PUT`     | {'name':'Thriller'} | Update a genre name. |
 | /api/genres/:id | `DELETE`  | Empty               | Delete a genre.      |
