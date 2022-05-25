@@ -93,8 +93,8 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 3.  Set env variables
 
     ```
-    $ set "moveis_jwtPrivateKey":<your private key>
-    $ set "moveis_db":<your local db>
+    $ set moveis_jwtPrivateKey=<your private key>
+    $ set moveis_db=<your local db>
     ```
 
 4.  Start the application
