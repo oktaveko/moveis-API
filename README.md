@@ -22,10 +22,10 @@ Node.JS - Moveis API
 
 ## Index
 
-| Route      | HTTP Verb | POST body                                                                       | Description                           |
-| ---------- | --------- | ------------------------------------------------------------------------------- | ------------------------------------- |
-| /api/users | `POST`    | <pre>{ "name": "Oktav", "email": "oktav@domain.com", "password": "abc12"}</pre> | Create a new user and generate token. |
-| /api/auth  | `POST`    | <pre>{ "email": "oktav@domain.com", "password": "abc12" }</pre>                 | Generate a token.                     |
+| Route      | HTTP Verb | POST body                                                                   | Description                           |
+| ---------- | --------- | --------------------------------------------------------------------------- | ------------------------------------- |
+| /api/users | `POST`    | <p>{ "name": "Oktav", "email": "oktav@domain.com", "password": "abc12"}</p> | Create a new user and generate token. |
+| /api/auth  | `POST`    | <p>{ "email": "oktav@domain.com", "password": "abc12" }</p>                 | Generate a token.                     |
 
 ## Customers
 
