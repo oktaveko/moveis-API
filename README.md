@@ -22,27 +22,27 @@ Node.JS - Moveis API
 
 ## Index
 
-| Route      | HTTP Verb | POST body                                                                   | Description                           |
-| ---------- | --------- | --------------------------------------------------------------------------- | ------------------------------------- |
-| /api/users | `POST`    | <p>{ "name": "Oktav", "email": "oktav@domain.com", "password": "abc12"}</p> | Create a new user and generate token. |
-| /api/auth  | `POST`    | <p>{ "email": "oktav@domain.com", "password": "abc12" }</p>                 | Generate a token.                     |
+| Route      | HTTP Verb | POST body                                                                         | Description                           |
+| ---------- | --------- | --------------------------------------------------------------------------------- | ------------------------------------- |
+| /api/users | `POST`    | { "name": "Oktav", "email": "oktav<span>@</span>domain.com", "password": "abc12"} | Create a new user and generate token. |
+| /api/auth  | `POST`    | { "email": "oktav<span>@</span>domain.com", "password": "abc12" }                 | Generate a token.                     |
 
 ## Customers
 
-| Route              | HTTP Verb | POST body                                           | Description               |
-| ------------------ | --------- | --------------------------------------------------- | ------------------------- |
-| /api/customers     | `GET`     | Empty                                               | List all customers.       |
-| /api/customers     | `POST`    | {'name':'Oktav', 'phone':'123456789', 'isGold':true | Create a new customers    |
-| /api/customers/:id | `GET`     | Empty                                               | Get a customer details.   |
-| /api/customers/:id | `PUT`     | {'name':'Oktav1', 'phone':'12345678'}               | Update a customer detail. |
-| /api/customers/:id | `DELETE`  | Empty                                               | Delete a customer.        |
+| Route              | HTTP Verb | POST body                                            | Description               |
+| ------------------ | --------- | ---------------------------------------------------- | ------------------------- |
+| /api/customers     | `GET`     | Empty                                                | List all customers.       |
+| /api/customers     | `POST`    | {'name':'Oktav', 'phone':'123456789', 'isGold':true} | Create a new customers    |
+| /api/customers/:id | `GET`     | Empty                                                | Get a customer details.   |
+| /api/customers/:id | `PUT`     | {'name':'Oktav1', 'phone':'12345678'}                | Update a customer detail. |
+| /api/customers/:id | `DELETE`  | Empty                                                | Delete a customer.        |
 
 ## Genres
 
 | Route           | HTTP Verb | POST body           | Description          |
 | --------------- | --------- | ------------------- | -------------------- |
 | /api/genres     | `GET`     | Empty               | List all genres.     |
-| /api/genres     | `POST`    | {'name':'Horror'    | Create a new genre   |
+| /api/genres     | `POST`    | {'name':'Horror'}   | Create a new genre   |
 | /api/genres/:id | `GET`     | Empty               | Get a genre details. |
 | /api/genres/:id | `PUT`     | {'name':'Thriller'} | Update a genre name. |
 | /api/genres/:id | `DELETE`  | Empty               | Delete a genre.      |
@@ -107,4 +107,4 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 
 # Demo
 
-[Root url for live demo on Heroku](https://moveis-oktav.herokuapp.com/)
+Root url for live demo on [Heroku](https://moveis-oktav.herokuapp.com/)
